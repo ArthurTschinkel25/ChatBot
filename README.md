@@ -1,18 +1,2 @@
-## Getting Started
+Esse é o Chatbot da Clínica Saúde+, um assistente virtual simples feito em Java que conversa com você pelo terminal. Ele não usa inteligência artificial, mas sim palavras-chave para entender o que você precisa. Você pode dar oi, perguntar o horário de funcionamento, o endereço, quais convênios são aceitos ou quanto tempo demora o resultado de exames. Se quiser marcar uma consulta, é só falar que ele pergunta a especialidade e confirma na sequência; e se precisar cancelar, ele pede uma confirmação para ter certeza. Ele também reconhece combinações de sintomas: se você disser que está com dor no peito, ele dá um alerta de emergência; se mencionar febre com tosse ou garganta, sugere um quadro gripal; e se falar em dor de cabeça, recomenda descanso e água. Quando ele não entende algo, responde com uma mensagem genérica pra conversa não travar, e você pode encerrar a qualquer momento digitando sair, tchau, encerrar ou adeus. Para rodar, basta ter o JDK 17 ou superior, compilar com javac ChatbotSaude.java e executar com java ChatbotSaude.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
